@@ -21,7 +21,7 @@ function changeCustomColor() {
     let inputValue = parseInt(customNumberInput.value);
     let bgColor = getColorFromValue(inputValue);
     document.body.style.backgroundColor = bgColor;
-    studentIdElement.innerText = "200373088"; //Replace with your student id
+    studentIdElement.innerText = "200373088";
 }
 
 // function to get color based on value
